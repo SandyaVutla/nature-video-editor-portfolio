@@ -1,24 +1,28 @@
-import React from 'react';
+import React from "react";
 
 const Contact: React.FC = () => {
   return (
     <section id="contact" className="py-40 px-6">
       <div className="max-w-4xl mx-auto text-center space-y-14">
 
+        {/* Availability badge */}
         <div className="inline-block px-4 py-1 border border-[#88a096]/30 rounded-full text-[10px] uppercase tracking-[0.3em] text-[#88a096]">
           Available for Hire
         </div>
 
+        {/* Heading */}
         <h2 className="text-5xl md:text-8xl font-serif tracking-tighter leading-none">
           Let’s build a <span className="italic">story</span> together.
         </h2>
 
+        {/* Description */}
         <p className="text-neutral-500 text-lg max-w-lg mx-auto leading-relaxed">
           Whether it’s a long project or a small one, I help maintain the right rhythm.
         </p>
 
+        {/* Social / Contact icons */}
         <div className="flex justify-center items-center space-x-8 pt-6 text-neutral-500">
-          
+
           {/* Instagram */}
           <a
             href="https://www.instagram.com/the_art_of_capturing_69"
@@ -46,7 +50,7 @@ const Contact: React.FC = () => {
 
           {/* Email */}
           <a
-            href="tejeshjonnadula69@gmail.com"
+            href="mailto:tejeshjonnadula69@gmail.com"
             className="hover:text-white transition"
             aria-label="Email"
           >
